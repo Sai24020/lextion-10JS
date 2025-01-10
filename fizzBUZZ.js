@@ -7,19 +7,19 @@ function fizzBuzz() {
 let prompt = createPrompt();
 let name = prompt("Vad heter du ?")
 console.log(name);
-alert(`Vällkomman kära vanner : ${name}`);
-console.log(confirm("Spelet FizzBuzz har börjat!") + name);
+prompt(`Vällkomman kära vanner : ${name}`);
+//console.log(confirm("Spelet FizzBuzz har börjat!") + name);
    //alert("Spelet FizzBuzz har börjat!");
 
     for (let i = 1; i <= 15; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
-            alert("FizzBuzz");
+            prompt("FizzBuzz");
         } else if (i % 3 === 0) {
-            alert("Fizz");
+            prompt("Fizz");
         } else if (i % 5 === 0) {
-            alert("Buzz");
+            prompt("Buzz");
         } else {
-            alert(i);
+            prompt(i);
         }
     }
 }
