@@ -24,4 +24,3 @@ prompt(`Vällkomman kära vanner : ${name}`);
     }
 }
 fizzBuzz();
-//alert(fizzBuzz());
