@@ -13,7 +13,7 @@
                 "<node_internals>/**"
             ],
             "console": "integratedTerminal",
-            "program": "${workspaceFolder}\\fizzBUZZ.js"
+            "program": "${workspaceFolder}\\spel.js"
         }
     ]
 }
